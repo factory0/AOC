@@ -418,6 +418,7 @@ int main() {
     }
 
     total = map.totalGPS();
+    map.printMap();
 
     std::cout << total << std::endl;
     std::cout << xTotal << std::endl;
